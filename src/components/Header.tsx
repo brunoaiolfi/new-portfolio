@@ -1,10 +1,7 @@
-import { Flex, Image, Link, Text, useColorMode } from "@chakra-ui/react"
+import { Flex, Link, Text } from "@chakra-ui/react"
 import { FaWhatsapp } from "react-icons/fa";
-import User from '/user.png';
 
 export const Header = () => {
-  // const darkmode
-  const { colorMode, toggleColorMode } = useColorMode();
 
   return (
     <>
@@ -21,7 +18,7 @@ export const Header = () => {
           borderColor='white.50'
           bg='transparent'
           borderRadius={["10px", "15px"]}
-          href='https://wa.me/5512997972034'
+          href='https://wa.me/48988060117'
           target='_blank'
           display='flex'
           alignItems='center'

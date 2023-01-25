@@ -1,19 +1,16 @@
 import {
   Box,
-  Button,
   Flex,
   Heading,
   Image,
   Link,
   Text,
 } from "@chakra-ui/react";
-import Bg from "/Bg.png";
 import Atom from "/Atom.png";
 import Code from "/Code.png";
 import FigmaLogo from "/FigmaLogo.png";
 import Lightbulb from "/Lightbulb.png";
-import { FiInstagram, FiLinkedin, FiGithub, FiYoutube } from "react-icons/fi";
-import { useAboutMe } from "../context/AboutMeContext";
+import { FiLinkedin, FiGithub } from "react-icons/fi";
 
 export const BannerHome = () => {
   return (
@@ -38,9 +35,8 @@ export const BannerHome = () => {
         </Text>
 
         <Flex mt="22" justifyContent={["center", "flex-start"]} gap="6">
-          <Link href="https://www.instagram.com/jnrandradx/" target="_blank"><FiInstagram size={26} color="#7206C2" /></Link>
-          <Link href="https://www.linkedin.com/in/jlsnjnr/" target="_blank"><FiLinkedin size={26} color="#7206C2" /></Link>
-          <Link href="https://github.com/jlsnjnr" target="_blank"><FiGithub size={26} color="#7206C2" /></Link>
+          <Link href="https://www.linkedin.com/in/bruno-aiolfi-6a75b1203/" target="_blank"><FiLinkedin size={26} color="#7206C2" /></Link>
+          <Link href="https://github.com/brunoaiolfi" target="_blank"><FiGithub size={26} color="#7206C2" /></Link>
         </Flex>
       </Flex>
 
