@@ -43,11 +43,10 @@ export const BannerHome = () => {
       <Box ml="auto" position="relative">
         <Image
           mx={["auto", "0"]}
-          maxW={["60%", "400px"]}
+          maxW={["60%", "350px"]}
           src={"https://avatars.githubusercontent.com/brunoaiolfi"}
           alt="Background"
-          borderBottomLeftRadius={150}
-          borderTopRightRadius={150}
+          borderRadius={8}
         />
         <Flex
           className="image"
@@ -57,7 +56,7 @@ export const BannerHome = () => {
           w="60px"
           h="60px"
           borderRadius="full"
-          top="20"
+          top="50%"
           right="1"
           pos="absolute"
         >
@@ -71,8 +70,8 @@ export const BannerHome = () => {
           w="60px"
           h="60px"
           borderRadius="full"
-          left={["0", "-5"]}
-          bottom="20"
+          left={["0%", "-5%"]}
+          bottom="20%"
           pos="absolute"
         >
           <Image src={Code} alt="Code icon" />
@@ -85,8 +84,8 @@ export const BannerHome = () => {
           w="60px"
           h="60px"
           borderRadius="full"
-          left="5"
-          top="20"
+          left="5%"
+          top="20%"
           pos="absolute"
         >
           <Image src={FigmaLogo} alt="Figma Logo icon" />
@@ -99,8 +98,8 @@ export const BannerHome = () => {
           w="60px"
           h="60px"
           borderRadius="full"
-          right="20"
-          bottom="5"
+          right="20%"
+          bottom="5%"
           pos="absolute"
         >
           <Image src={Lightbulb} alt="Light bulb icon" />
