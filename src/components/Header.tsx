@@ -7,10 +7,6 @@ export const Header = () => {
     <>
       <Flex alignItems='center' justifyContent='space-between' my="40px">
 
-        <Flex my="50px" alignItems="center" justifyContent={["center", "flex-start"]} flexDir={["column", "row"]} gap={["30px", "90px"]}>
-          <Link download href="../../Curriculo.pdf">Baixar CV</Link>
-        </Flex>
-
         <Link
           w={['150px', '240px']}
           h={['45px', '60px']}
@@ -26,6 +22,7 @@ export const Header = () => {
           gap='10px'
           transition='0.5s'
           ml="auto"
+          my="50px"
           _hover={{
             textDecoration: 'none',
             border: "1px solid #e4e4e4"
