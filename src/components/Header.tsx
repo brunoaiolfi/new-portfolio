@@ -8,7 +8,7 @@ export const Header = () => {
       <Flex alignItems='center' justifyContent='space-between' my="40px">
 
         <Flex my="50px" alignItems="center" justifyContent={["center", "flex-start"]} flexDir={["column", "row"]} gap={["30px", "90px"]}>
-          <Link download href="Curriculo.pdf">Baixar CV</Link>
+          <Link download href="../../Curriculo.pdf">Baixar CV</Link>
         </Flex>
 
         <Link
